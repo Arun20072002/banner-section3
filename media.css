@@ -1,0 +1,56 @@
+/* mobile */
+/* header-section */
+	@media(min-width:320px){
+		.container{
+			width:95%;
+			margin:auto;
+		}
+		.head-menu{
+			display:block;
+		}
+		nav{
+			display:none;
+		}
+		#banner-section{
+			background-position:center;
+			
+		}
+	}
+
+
+/* i pad */
+/* header-section */
+	@media(min-width:760px){
+		.container{
+			width:90%;
+			margin:auto;
+		}
+		.head-menu{
+			display:block;
+		}
+		nav{
+			display:none;
+		}
+		#banner-section{
+			background-position:center;
+		}
+	}
+
+
+/* labtop */
+/* header-section */
+	@media(min-width:960px){
+		.container{
+			width:80%;
+			margin:auto;
+		}
+		.head-menu{
+			display:none;
+		}
+		nav{
+			display:block;
+		}
+		#banner-section{
+			background-position:none;
+		}
+	}
